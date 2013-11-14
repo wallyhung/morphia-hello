@@ -1,0 +1,39 @@
+
+<dependency>
+	<groupId>org.mongodb.morphia</groupId>
+	<artifactId>morphia</artifactId>
+	<version>0.105</version>
+</dependency>
+
+
+* spring + morphia.
+
+* morphia factory?
+
+* morphia auto-scan?
+    <dependency>
+        <groupId>org.mongodb.morphia</groupId>
+        <artifactId>morphia-entityscanner-plug</artifactId>
+        <version>0.105</version>
+    </dependency>
+
+
+* morphia slf4j logging
+    <dependency>
+    	<groupId>org.mongodb.morphia</groupId>
+    	<artifactId>morphia-logging-slf4j</artifactId>
+    	<version>0.105</version>
+    </dependency>
+
+
+* morphia validation?
+    <dependency>
+    	<groupId>org.mongodb.morphia</groupId>
+    	<artifactId>morphia-validation</artifactId>
+    	<version>0.105</version>
+    </dependency>
+
+
+---- DONE ------------------------------------------------------------------------
+
+### EOF
