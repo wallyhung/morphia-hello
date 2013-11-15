@@ -1,16 +1,5 @@
 
 
-
-
-
-* morphia slf4j logging
-    <dependency>
-    	<groupId>org.mongodb.morphia</groupId>
-    	<artifactId>morphia-logging-slf4j</artifactId>
-    	<version>0.105</version>
-    </dependency>
-
-
 * morphia auto-scan?
     <dependency>
         <groupId>org.mongodb.morphia</groupId>
@@ -41,6 +30,13 @@
 * morphia factory?
 
 
+
+* morphia slf4j logging
+    <dependency>
+    	<groupId>org.mongodb.morphia</groupId>
+    	<artifactId>morphia-logging-slf4j</artifactId>
+    	<version>0.105</version>
+    </dependency>
 
 
 

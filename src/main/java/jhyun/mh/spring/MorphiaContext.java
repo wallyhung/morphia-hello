@@ -5,6 +5,8 @@ import com.mongodb.MongoClientOptions;
 import jhyun.mh.entities.Foo;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.Morphia;
+import org.mongodb.morphia.logging.MorphiaLoggerFactory;
+import org.mongodb.morphia.logging.slf4j.SLF4JLogrImplFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -22,6 +24,12 @@ import java.util.HashSet;
  */
 @Configuration
 public class MorphiaContext {
+
+    @Bean(name = "SLF4JLogrImplFactory.class...")
+    public Class morphiaLoggerFactory_slf4jLogger() {
+        MorphiaLoggerFactory.registerLogger(SLF4JLogrImplFactory.class);
+        return SLF4JLogrImplFactory.class;
+    }
 
     @Bean
     public MongoClientOptions mongoClientOptions() {
