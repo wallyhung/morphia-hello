@@ -1,6 +1,5 @@
 
 
----- DONE ------------------------------------------------------------------------
 
 * spring + morphia. / morphia factory?
     <dependency>
@@ -23,6 +22,10 @@
     </dependency>
 
     -> MorphiaLoggerFactory.register...
+
+
+
+
 
 
 * morphia auto-scan?
@@ -57,5 +60,7 @@
         -->         new ValidationExtension(morphia);
 
     @Email, @NotNull등을 @Entity에 지정해놓으면 자동으로 저장전에 검사.
+
+
 
 ### EOF
