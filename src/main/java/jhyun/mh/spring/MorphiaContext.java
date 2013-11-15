@@ -1,17 +1,17 @@
 package jhyun.mh.spring;
 
-import com.mongodb.DB;
-import com.mongodb.DBAddress;
-import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
+import com.mongodb.MongoClientOptions;
 import jhyun.mh.entities.Foo;
+import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.Morphia;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.net.UnknownHostException;
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.Set;
 
 /**
  * Created with IntelliJ IDEA.
@@ -22,10 +22,31 @@ import java.util.Set;
  */
 @Configuration
 public class MorphiaContext {
-    private void fo() throws UnknownHostException {
-        DB db = MongoClient.connect(new DBAddress("localhost", "test"));
 
-        Morphia morphia = new Morphia(new HashSet<Class>(Arrays.asList(Foo.class)));
-
+    @Bean
+    public MongoClientOptions mongoClientOptions() {
+        final MongoClientOptions.Builder builder = MongoClientOptions.builder();
+        return builder.build();
     }
+
+    @Autowired
+    @Bean
+    public MongoClient mongoClient(MongoClientOptions mongoClientOptions) throws UnknownHostException {
+        MongoClient mongoClient = new MongoClient("localhost", mongoClientOptions);
+        return mongoClient;
+    }
+
+    @Bean
+    public Morphia morphia() {
+        Morphia morphia = new Morphia(new HashSet<Class>(Arrays.asList(Foo.class)));
+        return morphia;
+    }
+
+    @Autowired
+    @Bean
+    public Datastore datastore(MongoClient mongoClient, Morphia morphia) {
+        Datastore ds = morphia.createDatastore(mongoClient, "test");
+        return ds;
+    }
+
 }

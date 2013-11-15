@@ -15,6 +15,7 @@ import org.mongodb.morphia.annotations.Id;
 public class Foo {
     @Id
     private ObjectId id;
+    private String title;
 
     public ObjectId getId() {
         return id;
@@ -22,5 +23,13 @@ public class Foo {
 
     public void setId(ObjectId id) {
         this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 }
