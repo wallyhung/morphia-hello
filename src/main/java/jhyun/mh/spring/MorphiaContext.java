@@ -5,6 +5,7 @@ import com.mongodb.MongoClientOptions;
 import jhyun.mh.entities.Foo;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.Morphia;
+import org.mongodb.morphia.ValidationExtension;
 import org.mongodb.morphia.logging.MorphiaLoggerFactory;
 import org.mongodb.morphia.logging.slf4j.SLF4JLogrImplFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,7 +47,9 @@ public class MorphiaContext {
 
     @Bean
     public Morphia morphia() {
-        Morphia morphia = new Morphia(new HashSet<Class>(Arrays.asList(Foo.class)));
+        Morphia morphia = new Morphia();
+        morphia.mapPackage("jhyun");
+        new ValidationExtension(morphia);
         return morphia;
     }
 

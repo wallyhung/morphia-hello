@@ -29,6 +29,10 @@
     <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:2.11.3" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb.morphia:morphia:0.105" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb.morphia:morphia-logging-slf4j:0.105" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb.morphia:morphia-validation:0.105" level="project" />
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:1.0.0.GA" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:4.3.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.1.0.CR2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:3.2.4.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.7" level="project" />
   </component>

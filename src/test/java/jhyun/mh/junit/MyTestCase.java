@@ -40,9 +40,19 @@ public class MyTestCase {
         //
         Foo foo = new Foo();
         foo.setTitle(String.format("foobar!!! %s", new Date()));
+        foo.setEmail("ageldama@gmail.com");
         datastore.save(foo);
         //
         final long afterCount = datastore.find(Foo.class).countAll();
         Assert.assertTrue("afterCount should greater than beforeCount!", afterCount > beforeCount);
     }
+
+    @Test(expected = Exception.class)
+    public void t_03() {
+        Foo foo = new Foo();
+        foo.setTitle(String.format("foobar!!! %s", new Date()));
+        foo.setEmail("DKdKdKdKDm");
+        datastore.save(foo);
+    }
+
 }

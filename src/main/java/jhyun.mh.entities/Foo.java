@@ -1,8 +1,11 @@
 package jhyun.mh.entities;
 
 import org.bson.types.ObjectId;
+import org.hibernate.validator.constraints.Email;
 import org.mongodb.morphia.annotations.Entity;
 import org.mongodb.morphia.annotations.Id;
+
+import javax.validation.constraints.NotNull;
 
 /**
  * Created with IntelliJ IDEA.
@@ -16,6 +19,9 @@ public class Foo {
     @Id
     private ObjectId id;
     private String title;
+    @NotNull
+    @Email
+    private String email;
 
     public ObjectId getId() {
         return id;
@@ -31,5 +37,13 @@ public class Foo {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

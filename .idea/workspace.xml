@@ -7,11 +7,11 @@
     <file path="/pom.xml" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384412022358" ignored="false" />
     <file path="/RootContext.java" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384412412936" ignored="false" />
     <file path="/log4j.xml" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384412465161" ignored="false" />
-    <file path="/MyTestCase.java" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384477632962" ignored="false" />
+    <file path="/MyTestCase.java" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384480467001" ignored="false" />
     <file path="/fragment.java" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384417598288" ignored="false" />
-    <file path="/TODOs.txt" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384413174163" ignored="false" />
-    <file path="/Foo.java" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384477072968" ignored="false" />
-    <file path="/MorphiaContext.java" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384478319932" ignored="false" />
+    <file path="/TODOs.txt" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384480534862" ignored="false" />
+    <file path="/Foo.java" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384479141965" ignored="false" />
+    <file path="/MorphiaContext.java" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384478542535" ignored="false" />
     <file path="/Groovy Console" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384477830706" ignored="false" />
     <file path="/.gitignore" changelist="e8e5abc9-4cd9-4422-b29c-3ef24bfc93f5" time="1384478038748" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="19" selection-start="4484" selection-end="4484" vertical-scroll-proportion="0.0">
+            <state line="163" column="39" selection-start="5020" selection-end="5208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,7 +109,7 @@
       <file leaf-file-name="TODOs.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TODOs.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="41" selection-start="115" selection-end="128" vertical-scroll-proportion="0.18849206">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,7 +118,7 @@
       <file leaf-file-name="MorphiaContext.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jhyun/mh/spring/MorphiaContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="39" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
+            <state line="52" column="0" selection-start="1617" selection-end="1659" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,7 +127,7 @@
       <file leaf-file-name="Foo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jhyun.mh.entities/Foo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="8" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
+            <state line="42" column="8" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,7 +136,7 @@
       <file leaf-file-name="MyTestCase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/jhyun/mh/junit/MyTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="98" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
+            <state line="51" column="36" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,11 +154,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/jhyun/mh/spring/RootContext.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/jhyun.mh.entities/Foo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jhyun/mh/junit/MyTestCase.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/jhyun.mh.entities/Foo.java" />
         <option value="$PROJECT_DIR$/src/main/java/jhyun/mh/spring/MorphiaContext.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jhyun/mh/junit/MyTestCase.java" />
         <option value="$PROJECT_DIR$/TODOs.txt" />
       </list>
     </option>
@@ -413,7 +413,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTestCase.t_02">
+  <component name="RunManager" selected="JUnit.MyTestCase.t_03">
     <configuration default="false" name="MyTestCase" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="morphia-hello" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -461,6 +461,28 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyTestCase.t_03" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="morphia-hello" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="jhyun.mh.junit" />
+      <option name="MAIN_CLASS_NAME" value="jhyun.mh.junit.MyTestCase" />
+      <option name="METHOD_NAME" value="t_03" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -552,14 +574,16 @@
       <patterns />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MyTestCase" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.MyTestCase.t_02" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyTestCase.t_03" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyTestCase.t_02" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyTestCase" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyTestCase.t_03" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyTestCase.t_02" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyTestCase" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -603,7 +627,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -612,7 +636,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.40032414" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15235008" sideWeight="0.6002265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15235008" sideWeight="0.6715742" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -745,13 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="19" selection-start="4484" selection-end="4484" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jhyun/mh/spring/RootContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="37" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
@@ -766,30 +783,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jhyun/mh/spring/MorphiaContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="39" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jhyun.mh.entities/Foo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="8" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
+        <state line="42" column="8" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/jhyun/mh/junit/MyTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="98" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
+        <state line="51" column="36" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="39" selection-start="5020" selection-end="5208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jhyun/mh/spring/MorphiaContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1617" selection-end="1659" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TODOs.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="115" selection-end="128" vertical-scroll-proportion="0.18849206">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
